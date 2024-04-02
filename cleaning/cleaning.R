@@ -23,6 +23,15 @@ package.check <- lapply(packages, FUN = function(x){
 
 getwd()
 rm(list=ls())
-#file.edit("xxx")
+
+file.edit("cleaning/kyotominiren.R")
+
+file.edit("cleaning/osakauniv.R")
+
+file.edit("cleaning/saiseikai_yokohama.R")
+
+file.edit("cleaning/ichinomiya.R")
+
+file.edit("cleaning/kyotocity.R")
+
 #source(here("cleaning","xxx.R"))
-#load(here("statistical_analysis","xxx.R"))
